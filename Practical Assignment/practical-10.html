@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+        p::first-line{
+            font-weight: bold;
+            font-size: larger;
+            color: blue;
+        }
+
+        h1::before, h2::before {
+            content: "★ ";
+            color: gold;
+            font-size: 30pxpx;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to my page</h1>
+     <p>
+        This is a sample paragraph to demonstrate the use of the 
+        <code>::first-line</code> pseudo-element. When you view this page, 
+        notice how only the first line is styled differently.
+    </p>
+
+    <h2>Use this Links</h2>
+    <a href="https://www.youtube.com/" target="_blank">youtube</a><br>
+    <a href="https://careercenter.tops-int.com/dashboard" target="_blank">Tops Career</a><br>
+    <a href="https://maps.app.goo.gl/kEaWB267JoynoUmg9" target="_blank">G-map</a>
+</body>
+</html>

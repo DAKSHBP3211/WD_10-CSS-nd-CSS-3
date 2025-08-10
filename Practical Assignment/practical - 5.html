@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex; /* Set up the main container as a Flexbox container. */
+    flex-direction: column; /* Arrange the elements in a column layout. */
+    align-items: center; /* Center-align the content horizontally. */
+    min-height: 100vh; /* Ensure container takes full viewport height */
+}
+
+header, main, footer {
+    width: 80%; /* Adjust width as needed */
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Header</h1>
+        </header>
+        <main>
+            <p>Main content area.</p>
+        </main>
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </div>
+</body>
+</html>
